@@ -22,7 +22,8 @@ end
 def are_you_right?(your_guess)
   num
   if your_guess = num
-    
+    puts "You guessed the correct number!"
+  elsif your_guess
 
 def run_guessing_game
 
