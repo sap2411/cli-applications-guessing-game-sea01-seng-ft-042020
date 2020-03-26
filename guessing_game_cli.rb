@@ -24,7 +24,7 @@ end
 def are_you_right?(your_guess)
   num
   sleep 0.75
-  if your_guess = num
+  if your_guess == num
     puts "You guessed the correct number!"
   elsif your_guess == "exit"
     puts "Goodbye!"
