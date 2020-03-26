@@ -15,11 +15,14 @@ def prompt
   puts "Enter it below!"
 end
   
-def capture_guess
+def your_guess
   gets.chomp
 end
 
-def are_you_right?(num)
+def are_you_right?(your_guess)
+  num
+  if your_guess = num
+    
 
 def run_guessing_game
 
