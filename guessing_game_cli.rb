@@ -13,6 +13,8 @@ def prompt
   puts "Can you guess what the number is?"
   sleep 0.5
   puts "Enter it below!"
+  sleep 0.5
+  puts "Or type 'exit' to leave me here alone... forever... :("
 end
   
 def your_guess
@@ -23,7 +25,8 @@ def are_you_right?(your_guess)
   num
   if your_guess = num
     puts "You guessed the correct number!"
-  elsif your_guess
+  elsif your_guess = "exit"
+  
 
 def run_guessing_game
 
