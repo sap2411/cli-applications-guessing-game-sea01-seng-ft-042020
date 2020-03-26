@@ -23,7 +23,7 @@ def are_you_right?(your_guess)
     puts "You guessed the correct number!"
   elsif your_guess == "exit"
     puts "Goodbye!"
-  else your_guess != com
+  else your_guess
     puts "Sorry! The computer guessed #{computers_number}."
   end
 end
