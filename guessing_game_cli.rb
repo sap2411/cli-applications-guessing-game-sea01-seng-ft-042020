@@ -16,7 +16,10 @@ def prompt
 end
   
 def capture_guess
-  
+  gets.chomp
+end
+
+
 
 def run_guessing_game
 
