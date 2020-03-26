@@ -31,6 +31,7 @@ def are_you_right?(your_guess)
     puts "Sorry! The computer guessed #{num}"
   end
 def run_guessing_game
-  
-  
+  prompt
+  your_guess
+  are_you_right(your_guess)
 end
