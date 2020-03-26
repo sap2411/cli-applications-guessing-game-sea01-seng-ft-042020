@@ -23,6 +23,7 @@ end
 
 def are_you_right?(your_guess)
   num
+  sleep 0.8
   if your_guess = num
     puts "You guessed the correct number!"
   elsif your_guess == "exit"
@@ -34,6 +35,8 @@ end
 
 def run_guessing_game
   prompt
+  sleep 0.5
   your_guess = whats_your_guess?
+  sleep 0.75
   are_you_right?(your_guess)
 end
