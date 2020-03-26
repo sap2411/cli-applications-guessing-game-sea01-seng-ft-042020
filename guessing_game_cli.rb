@@ -7,13 +7,13 @@ end
 
 def prompt
   puts "Hi there!" 
-  sleep 0.5
+  sleep 0.75
   puts "I'm thinking of a number between 1 and 6..."
-  sleep 0.5
+  sleep 0.75
   puts "Can you guess what the number is?"
-  sleep 0.5
+  sleep 0.75
   puts "Enter it below!"
-  sleep 0.5
+  sleep 0.75
   puts "Or type 'exit' to leave me here alone... forever... :("
 end
   
