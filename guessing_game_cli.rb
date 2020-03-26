@@ -11,9 +11,9 @@ def prompt
   puts "I'm thinking of a number between 1 and 6..."
   sleep 1.2
   puts "Can you guess what the number is?"
-  sleep 0.85
-  puts "Enter it below!"
   sleep 1
+  puts "Enter it below!"
+  sleep 1.5
   puts "Or type 'exit' to leave me here alone... forever... :("
 end
   
