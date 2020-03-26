@@ -35,5 +35,5 @@ end
 def run_guessing_game
   prompt
   your_guess = whats_your_guess?
-  are_you_right(your_guess)
+  are_you_right?(your_guess)
 end
