@@ -24,7 +24,7 @@ def are_you_right?(your_guess)
   elsif your_guess == "exit"
     puts "Goodbye!"
   else 
-    puts "Sorry! The computer guessed #{computers_number}"
+    puts "Sorry! The computer guessed #{computers_number}."
   end
 end
 
