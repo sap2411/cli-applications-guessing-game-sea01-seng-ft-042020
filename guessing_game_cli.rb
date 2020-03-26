@@ -6,7 +6,7 @@ def num
 end
 
 def prompt
-  puts "Whats"
+  puts Whats up my home-skillet-biscut-dog? 
   
 
 def run_guessing_game
