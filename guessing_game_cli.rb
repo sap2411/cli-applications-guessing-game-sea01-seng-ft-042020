@@ -25,11 +25,12 @@ def are_you_right?(your_guess)
   num
   if your_guess = num
     puts "You guessed the correct number!"
-  elsif your_guess = "exit"
+  elsif your_guess == "exit"
     puts "Goodbye!"
   else 
-    
+    puts "Sorry! The computer guessed #{num}"
+  end
 def run_guessing_game
-
+  
   
 end
