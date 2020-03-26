@@ -31,7 +31,5 @@ end
 def run_guessing_game
   prompt
   sleep 0.5
-  your_guess = whats_your_guess?
-  sleep 0.75
-  are_you_right?(your_guess)
+  are_you_right?
 end
