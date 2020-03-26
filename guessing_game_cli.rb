@@ -6,7 +6,7 @@ def num
 end
 
 def prompt
-  puts Whats up my home-skillet-biscut-dog? 
+  puts "Oh heddo wady, it's ya boi Phteven! Im"
   
 
 def run_guessing_game
