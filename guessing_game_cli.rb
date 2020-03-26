@@ -1,8 +1,7 @@
 # Code your solution here!
 
 def num
-  num = rand(7) + 1
-  num 
+  rand(7) + 1
 end
 
 def prompt
