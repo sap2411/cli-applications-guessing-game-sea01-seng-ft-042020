@@ -9,7 +9,7 @@ def prompt
   puts "Hi there!" 
   sleep 0.85
   puts "I'm thinking of a number between 1 and 6..."
-  sleep 0.855
+  sleep 1.2
   puts "Can you guess what the number is?"
   sleep 0.85
   puts "Enter it below!"
