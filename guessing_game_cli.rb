@@ -1,6 +1,6 @@
 # Code your solution here!
 
-def num
+def computers_num
   rand(7) + 1
 end
 
@@ -16,8 +16,9 @@ def whats_your_guess?
   gets.chomp
 end
 
-def are_you_right?(your_guess)
-  computers_number = num
+def are_you_right?
+  your_guess = whats_your_guess
+  computers_number = computers_num
   if your_guess == computers_number
     puts "You guessed the correct number!"
   elsif your_guess == "exit"
