@@ -6,6 +6,7 @@ def num
 end
 
 def prompt
+  puts "Whats"
   
 
 def run_guessing_game
