@@ -6,7 +6,8 @@ def num
 end
 
 def prompt
-  puts "Hi there!"  
+  puts "Hi there!" 
+  sleep 0.5
   puts "I'm thinking of a number between 1 and 6..."
   puts "Can you guess what the number is?"
   puts "Enter it below!"
