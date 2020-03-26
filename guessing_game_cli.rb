@@ -6,9 +6,10 @@ def num
 end
 
 def prompt
-  puts "Hi there! "I'm thinking of a number between 1 and 6..." "Can you guess what the number is? Enter it below!"
-  puts
-  puts
+  puts "Hi there!"  
+  puts "I'm thinking of a number between 1 and 6..."
+  puts "Can you guess what the number is?"
+  puts "Enter it below!"
 end
   
 
