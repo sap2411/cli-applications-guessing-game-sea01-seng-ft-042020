@@ -26,8 +26,9 @@ def are_you_right?(your_guess)
   if your_guess = num
     puts "You guessed the correct number!"
   elsif your_guess = "exit"
-  
-
+    puts "Goodbye!"
+  else 
+    
 def run_guessing_game
 
   
