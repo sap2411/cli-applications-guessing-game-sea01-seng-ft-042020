@@ -17,8 +17,7 @@ def whats_your_guess?
 end
 
 def are_you_right?
-  your_guess = whats_your_guess
-  your_guess.to_i
+  your_guess = whats_your_guess.to_i
   computers_number = computers_num
   if your_guess == computers_number
     puts "You guessed the correct number!"
