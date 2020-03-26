@@ -17,7 +17,7 @@ def prompt
   puts "Or type 'exit' to leave me here alone... forever... :("
 end
   
-def your_guess
+def whats_your_guess?
   gets.chomp
 end
 
@@ -30,8 +30,10 @@ def are_you_right?(your_guess)
   else 
     puts "Sorry! The computer guessed #{num}"
   end
+end
+
 def run_guessing_game
   prompt
-  your_guess
+  your_guess = whats_your_guess?
   are_you_right(your_guess)
 end
